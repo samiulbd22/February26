@@ -80,7 +80,7 @@ const members = {
     runningMonth    :"February 26",
     previousMonth   :"January-25", // new addDecember link https://grabify.link/P0IBKC
     upComingMonth   :"March 1,2026",
-    runningMealRate :63,
+    runningMealRate :61,
 
 //Continue for mass calculating {"04/08/25-Cash":4550}    
     "01922362569":{
@@ -96,7 +96,7 @@ const members = {
         garage_cost     :0,
         running_payable :2845,
         running_paid    :2000,
-        running_meal    :11,
+        running_meal    :13,
         // method 
         preMonth,
         runningDiningCost,
@@ -156,7 +156,7 @@ const members = {
         garage_cost     :0,
         running_payable :3751,
         running_paid    :0,
-        running_meal    :19,
+        running_meal    :22,
         // method calling
         preMonth,
         runningDiningCost,
@@ -217,7 +217,7 @@ const members = {
         garage_cost     :0,
         running_payable :3695,
         running_paid    :4000,
-        running_meal    :11,
+        running_meal    :15,
         // method calling
         preMonth,
         runningDiningCost,
@@ -237,7 +237,7 @@ const members = {
         garage_cost     :0,
         running_payable :3494,
         running_paid    :4500,
-        running_meal    :9,
+        running_meal    :11,
         // method calling
         preMonth,
         runningDiningCost,

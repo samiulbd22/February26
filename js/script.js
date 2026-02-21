@@ -155,7 +155,7 @@ const members = {
         stay_cost       :2800,
         garage_cost     :0,
         running_payable :3751,
-        running_paid    :2000,
+        running_paid    :3000,
         running_meal    :39,
         // method calling
         preMonth,
@@ -847,6 +847,7 @@ function sumTotal(a){
     }
     return sum;
 }
+
 
 
 

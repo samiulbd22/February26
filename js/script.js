@@ -130,7 +130,7 @@ const members = {
         post_payable        :6500,
         previous_paid       :9000,
         previous_dining_cost:2736,
-        payment             :{"05/02/26-Cash":1500,"9/02/26-Cash":3000,"18/02/26-Cash":500,,"20/02/26-Cash":700},
+        payment             :{"05/02/26-Cash":1500,"9/02/26-Cash":3000,"18/02/26-Cash":500,"20/02/26-Cash":700},
         // running month
         stay_cost       :3250,
         garage_cost     :0,
@@ -150,12 +150,12 @@ const members = {
         post_payable        :3954,
         previous_paid       :6000,
         previous_dining_cost:2337,
-        payment             :undefined,
+        payment             :{"20/02/26-Cash":3000},,
         // running month
         stay_cost       :2800,
         garage_cost     :0,
         running_payable :3751,
-        running_paid    :0,
+        running_paid    :2000,
         running_meal    :39,
         // method calling
         preMonth,
@@ -847,6 +847,7 @@ function sumTotal(a){
     }
     return sum;
 }
+
 
 
 
